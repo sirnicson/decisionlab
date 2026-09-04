@@ -951,3 +951,53 @@ body.journal-pointer-sorting *{cursor:grabbing!important}
 @media(max-width:960px){
   .redrock-calculator-slot .calculator-panel{height:auto}
 }
+
+/* Global scroll safety: keep long sticky utilities discoverable and usable. */
+@media(min-width:921px){
+  .sidebar{
+    overflow-y:auto;
+    overflow-x:hidden;
+    scrollbar-gutter:stable;
+  }
+}
+
+@media(min-width:961px){
+  .redrock-right-rail.redrock-utility-stack.journal,
+  .redrock-workspace.utility-analysis>.redrock-right-rail{
+    height:calc(100dvh - 130px);
+    min-height:0;
+  }
+
+  .redrock-journal-slot{
+    height:100%;
+    min-height:0;
+  }
+
+  .redrock-journal-slot>.journal-dropzone{
+    height:100%;
+    min-height:0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    scrollbar-gutter:stable;
+    scrollbar-width:auto;
+    scrollbar-color:#9ba79f #eef1eb;
+  }
+
+  .redrock-journal-slot>.journal-dropzone>.eyebrow{
+    position:sticky;
+    top:0;
+    z-index:3;
+    margin-top:-2px;
+    padding:2px 0 10px;
+    background:#fff;
+  }
+
+  .redrock-journal-slot>.journal-dropzone::-webkit-scrollbar,
+  .sidebar::-webkit-scrollbar{width:12px}
+  .redrock-journal-slot>.journal-dropzone::-webkit-scrollbar-track,
+  .sidebar::-webkit-scrollbar-track{background:#eef1eb;border-radius:999px}
+  .redrock-journal-slot>.journal-dropzone::-webkit-scrollbar-thumb,
+  .sidebar::-webkit-scrollbar-thumb{background:#9ba79f;border:3px solid #eef1eb;border-radius:999px}
+  .redrock-journal-slot>.journal-dropzone::-webkit-scrollbar-thumb:hover,
+  .sidebar::-webkit-scrollbar-thumb:hover{background:#6f7d74}
+}
