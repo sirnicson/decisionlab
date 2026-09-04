@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b7e141"/>
+      <stop offset=".44" stop-color="#a9d635"/>
+      <stop offset=".72" stop-color="#95c526"/>
+      <stop offset="1" stop-color="#84b01d"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(9 32 32)">
+    <rect x="5" y="5" width="54" height="54" rx="16" fill="url(#lime)"/>
+    <text x="32" y="44" fill="#132019" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="-2" text-anchor="middle" transform="rotate(-9 32 32)">D</text>
+  </g>
+</svg>
