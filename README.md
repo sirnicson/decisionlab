@@ -94,7 +94,7 @@ The application is built with React, TypeScript, and Vite. Vitest covers the sco
 
 ## Contributing
 
-You are welcome to play first, break things, and tell me what felt unclear. Contributions can be as small as correcting a sentence or as ambitious as proposing a new case.
+You are welcome to play first, explore the experience, and tell me what felt unclear. Ideas and issue reports can be as small as correcting a sentence or as ambitious as proposing a new case.
 
 A useful contribution usually starts with one of these:
 
@@ -104,7 +104,7 @@ A useful contribution usually starts with one of these:
 - preserve keyboard access and non-drag alternatives in interactive flows;
 - explain significant design or data decisions in `docs/`.
 
-For code changes, fork the repository, create a focused branch, run `npm test`, `npm run build`, and `npm run test:e2e`, then open a pull request with a short explanation of what changed and why.
+Before preparing code changes, open an issue and obtain permission from the copyright holder. Approved contributions should use a focused branch, pass `npm test`, `npm run build`, and `npm run test:e2e`, and include a short explanation of what changed and why.
 
 ## Data and independence
 
@@ -112,7 +112,7 @@ The cases use synthetic learner-facing values informed by ecological, geographic
 
 DecisionLab is an independent educational practice project. It is not affiliated with or endorsed by McKinsey & Company, and it does not reproduce official scoring, hiring outcomes, protected assessment content, or proprietary artwork. Please read [NOTICE.md](NOTICE.md) before contributing content.
 
-The code is available under the [MIT License](LICENSE).
+DecisionLab is proprietary software. **All rights are reserved.** You may view the public repository and play the hosted application, but you may not copy, modify, redistribute, sublicense, sell, or commercially exploit the project without prior written permission. See the [license notice](LICENSE).
 
 ## Release notes
 
