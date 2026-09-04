@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/decisionlab-lockup.png" alt="DecisionLab" width="520" />
+</p>
+
 # DecisionLab
 
 An interactive client-advisory workspace for practising structured decisions with incomplete information, competing constraints, and a clock that keeps moving.
