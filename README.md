@@ -6,9 +6,11 @@ An interactive client-advisory workspace for practising structured decisions wit
 
 ## Why I built it
 
-DecisionLab began with a simple question: could a problem-solving exercise feel less like a quiz and more like doing the work?
+DecisionLab began with my application for an Associate role at McKinsey, where the Solve game formed part of the recruitment process. I did not know what to expect, so I turned to YouTube and found tutors explaining its ideas and mechanics. Their public lessons were useful, but access to a complete practice experience often sat behind subscriptions costing hundreds of dollars.
 
-I wanted the learner to investigate a situation, decide what evidence matters, calculate an answer, make a recommendation, and then see how those choices hold together. That idea grew into two connected environmental workstreams for the fictional Fairhaven Environmental Trust.
+That gap sparked the project. I wondered whether I could use what I was learning, together with AI as a development partner, to build an accessible problem-solving experience of my own. I began by studying publicly available walkthroughs and notes, then worked step by step to design original fictional cases, datasets, interactions, scoring rules, and feedback.
+
+The goal was never to reproduce the recruitment assessment. I wanted to explore the kind of thinking that interested me: investigating a situation, deciding what evidence matters, calculating an answer, making a recommendation, and seeing how those choices hold together. That idea grew into two connected environmental workstreams for the fictional Fairhaven Environmental Trust.
 
 - **Red Rock** asks you to turn research and numerical analysis into a decision-ready recommendation.
 - **Sea Wolf** asks you to profile environmental sites, route microbial candidates, and assemble viable treatments.
